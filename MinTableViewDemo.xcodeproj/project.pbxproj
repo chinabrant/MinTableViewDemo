@@ -13,6 +13,17 @@
 		945362AE1FE9040100FBE7CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 945362AD1FE9040100FBE7CF /* Assets.xcassets */; };
 		945362B11FE9040100FBE7CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 945362AF1FE9040100FBE7CF /* LaunchScreen.storyboard */; };
 		945362B41FE9040100FBE7CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 945362B31FE9040100FBE7CF /* main.m */; };
+		945362CD1FE9040F00FBE7CF /* YTGapCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 945362BE1FE9040F00FBE7CF /* YTGapCellViewModel.m */; };
+		945362CE1FE9040F00FBE7CF /* YTNormalCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 945362C01FE9040F00FBE7CF /* YTNormalCellViewModel.m */; };
+		945362CF1FE9040F00FBE7CF /* YTGapCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 945362C21FE9040F00FBE7CF /* YTGapCell.m */; };
+		945362D01FE9040F00FBE7CF /* YTNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 945362C41FE9040F00FBE7CF /* YTNormalCell.m */; };
+		945362D11FE9040F00FBE7CF /* YTSectionFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 945362C61FE9040F00FBE7CF /* YTSectionFactory.m */; };
+		945362D21FE9040F00FBE7CF /* YTTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 945362CA1FE9040F00FBE7CF /* YTTableView.m */; };
+		945362D31FE9040F00FBE7CF /* YTTableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 945362CC1FE9040F00FBE7CF /* YTTableViewSection.m */; };
+		945362D61FE905B600FBE7CF /* ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 945362D51FE905B600FBE7CF /* ViewModel.m */; };
+		945362DB1FE9072500FBE7CF /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 945362D91FE9072500FBE7CF /* CustomCell.m */; };
+		945362DC1FE9072500FBE7CF /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 945362DA1FE9072500FBE7CF /* CustomCell.xib */; };
+		945362DF1FE9077200FBE7CF /* CustomCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 945362DE1FE9077200FBE7CF /* CustomCellViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,29 @@
 		945362B01FE9040100FBE7CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		945362B21FE9040100FBE7CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		945362B31FE9040100FBE7CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		945362BD1FE9040F00FBE7CF /* YTGapCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTGapCellViewModel.h; sourceTree = "<group>"; };
+		945362BE1FE9040F00FBE7CF /* YTGapCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTGapCellViewModel.m; sourceTree = "<group>"; };
+		945362BF1FE9040F00FBE7CF /* YTNormalCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTNormalCellViewModel.h; sourceTree = "<group>"; };
+		945362C01FE9040F00FBE7CF /* YTNormalCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTNormalCellViewModel.m; sourceTree = "<group>"; };
+		945362C11FE9040F00FBE7CF /* YTGapCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTGapCell.h; sourceTree = "<group>"; };
+		945362C21FE9040F00FBE7CF /* YTGapCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTGapCell.m; sourceTree = "<group>"; };
+		945362C31FE9040F00FBE7CF /* YTNormalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTNormalCell.h; sourceTree = "<group>"; };
+		945362C41FE9040F00FBE7CF /* YTNormalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTNormalCell.m; sourceTree = "<group>"; };
+		945362C51FE9040F00FBE7CF /* YTSectionFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTSectionFactory.h; sourceTree = "<group>"; };
+		945362C61FE9040F00FBE7CF /* YTSectionFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTSectionFactory.m; sourceTree = "<group>"; };
+		945362C71FE9040F00FBE7CF /* YTCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTCellProtocol.h; sourceTree = "<group>"; };
+		945362C81FE9040F00FBE7CF /* YTTableCellViewModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTTableCellViewModelProtocol.h; sourceTree = "<group>"; };
+		945362C91FE9040F00FBE7CF /* YTTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTTableView.h; sourceTree = "<group>"; };
+		945362CA1FE9040F00FBE7CF /* YTTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTTableView.m; sourceTree = "<group>"; };
+		945362CB1FE9040F00FBE7CF /* YTTableViewSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTTableViewSection.h; sourceTree = "<group>"; };
+		945362CC1FE9040F00FBE7CF /* YTTableViewSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTTableViewSection.m; sourceTree = "<group>"; };
+		945362D41FE905B600FBE7CF /* ViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewModel.h; sourceTree = "<group>"; };
+		945362D51FE905B600FBE7CF /* ViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewModel.m; sourceTree = "<group>"; };
+		945362D81FE9072500FBE7CF /* CustomCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		945362D91FE9072500FBE7CF /* CustomCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		945362DA1FE9072500FBE7CF /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		945362DD1FE9077200FBE7CF /* CustomCellViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCellViewModel.h; sourceTree = "<group>"; };
+		945362DE1FE9077200FBE7CF /* CustomCellViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCellViewModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +92,8 @@
 		945362A31FE9040000FBE7CF /* MinTableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				945362D71FE9071300FBE7CF /* 自定义的Cell */,
+				945362BA1FE9040F00FBE7CF /* YTTableView */,
 				945362A41FE9040000FBE7CF /* AppDelegate.h */,
 				945362A51FE9040100FBE7CF /* AppDelegate.m */,
 				945362A71FE9040100FBE7CF /* ViewController.h */,
@@ -67,8 +103,61 @@
 				945362AF1FE9040100FBE7CF /* LaunchScreen.storyboard */,
 				945362B21FE9040100FBE7CF /* Info.plist */,
 				945362B31FE9040100FBE7CF /* main.m */,
+				945362D41FE905B600FBE7CF /* ViewModel.h */,
+				945362D51FE905B600FBE7CF /* ViewModel.m */,
 			);
 			path = MinTableViewDemo;
+			sourceTree = "<group>";
+		};
+		945362BA1FE9040F00FBE7CF /* YTTableView */ = {
+			isa = PBXGroup;
+			children = (
+				945362BB1FE9040F00FBE7CF /* CommonCells */,
+				945362C71FE9040F00FBE7CF /* YTCellProtocol.h */,
+				945362C81FE9040F00FBE7CF /* YTTableCellViewModelProtocol.h */,
+				945362C91FE9040F00FBE7CF /* YTTableView.h */,
+				945362CA1FE9040F00FBE7CF /* YTTableView.m */,
+				945362CB1FE9040F00FBE7CF /* YTTableViewSection.h */,
+				945362CC1FE9040F00FBE7CF /* YTTableViewSection.m */,
+			);
+			path = YTTableView;
+			sourceTree = "<group>";
+		};
+		945362BB1FE9040F00FBE7CF /* CommonCells */ = {
+			isa = PBXGroup;
+			children = (
+				945362BC1FE9040F00FBE7CF /* CellViewModels */,
+				945362C11FE9040F00FBE7CF /* YTGapCell.h */,
+				945362C21FE9040F00FBE7CF /* YTGapCell.m */,
+				945362C31FE9040F00FBE7CF /* YTNormalCell.h */,
+				945362C41FE9040F00FBE7CF /* YTNormalCell.m */,
+				945362C51FE9040F00FBE7CF /* YTSectionFactory.h */,
+				945362C61FE9040F00FBE7CF /* YTSectionFactory.m */,
+			);
+			path = CommonCells;
+			sourceTree = "<group>";
+		};
+		945362BC1FE9040F00FBE7CF /* CellViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				945362BD1FE9040F00FBE7CF /* YTGapCellViewModel.h */,
+				945362BE1FE9040F00FBE7CF /* YTGapCellViewModel.m */,
+				945362BF1FE9040F00FBE7CF /* YTNormalCellViewModel.h */,
+				945362C01FE9040F00FBE7CF /* YTNormalCellViewModel.m */,
+			);
+			path = CellViewModels;
+			sourceTree = "<group>";
+		};
+		945362D71FE9071300FBE7CF /* 自定义的Cell */ = {
+			isa = PBXGroup;
+			children = (
+				945362D81FE9072500FBE7CF /* CustomCell.h */,
+				945362D91FE9072500FBE7CF /* CustomCell.m */,
+				945362DA1FE9072500FBE7CF /* CustomCell.xib */,
+				945362DD1FE9077200FBE7CF /* CustomCellViewModel.h */,
+				945362DE1FE9077200FBE7CF /* CustomCellViewModel.m */,
+			);
+			path = "自定义的Cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +220,7 @@
 			files = (
 				945362B11FE9040100FBE7CF /* LaunchScreen.storyboard in Resources */,
 				945362AE1FE9040100FBE7CF /* Assets.xcassets in Resources */,
+				945362DC1FE9072500FBE7CF /* CustomCell.xib in Resources */,
 				945362AC1FE9040100FBE7CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,9 +232,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				945362D01FE9040F00FBE7CF /* YTNormalCell.m in Sources */,
+				945362CD1FE9040F00FBE7CF /* YTGapCellViewModel.m in Sources */,
+				945362DB1FE9072500FBE7CF /* CustomCell.m in Sources */,
+				945362D31FE9040F00FBE7CF /* YTTableViewSection.m in Sources */,
+				945362CF1FE9040F00FBE7CF /* YTGapCell.m in Sources */,
 				945362A91FE9040100FBE7CF /* ViewController.m in Sources */,
+				945362D61FE905B600FBE7CF /* ViewModel.m in Sources */,
 				945362B41FE9040100FBE7CF /* main.m in Sources */,
+				945362DF1FE9077200FBE7CF /* CustomCellViewModel.m in Sources */,
+				945362D21FE9040F00FBE7CF /* YTTableView.m in Sources */,
 				945362A61FE9040100FBE7CF /* AppDelegate.m in Sources */,
+				945362CE1FE9040F00FBE7CF /* YTNormalCellViewModel.m in Sources */,
+				945362D11FE9040F00FBE7CF /* YTSectionFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +318,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +367,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
